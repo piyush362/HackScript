@@ -1,0 +1,21 @@
+.dev-container{
+    margin: 90px 100px 100px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.dev-card{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    background-color: rgb(0,223,192);
+    padding: 30px;
+    border-radius: 5px;
+}
+.dev-card > img{
+    height: 100px;
+}
+.dev-card > h4 , h6{
+    margin-top: 10px;
+    color: white;
+}

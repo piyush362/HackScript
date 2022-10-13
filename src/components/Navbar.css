@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+}
+.nav-title > img{
+    height: 90px;
+    filter: grayscale(50%);
+    margin-right: 10px;
+}
+.title{
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.nav-item{
+    display: flex;
+}
+.nav-item > a{
+    border: none;
+    background-color: transparent;
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.login-btn{
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    color: rgb(0, 136, 255);
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #3c4043;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 150px;
+    will-change: transform,opacity;
+    z-index: 0;
+}
+.login-btn:hover{
+    background: rgba(22, 185, 90, .3);
+    color: #515151;
+}
+.login-btn2{
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-weight: 500px;
+    border-radius: 5px;
+    background-color: rgb(0,223,192);
+    color: white;
+    font-size: 20px;
+    border-color: transparent;
+    cursor: pointer;
+}
