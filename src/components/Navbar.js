@@ -6,7 +6,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='nav-title'>
                 <img src="images/code10.png" alt="img" href="./" />
-                <a className='title' href="./">DevFire</a>
+                <a className='title' href="./">HackScript</a>
             </div>
             <div className="nav-item">
                 <a href="#">Home</a>

@@ -7,10 +7,21 @@
     display: flex;
     justify-content: space-between;
     height: 100px;
+    width: 100vw;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     padding-left: 100px;
     padding-right: 100px;
+}
+@media (max-width: 700px) {
+    .navbar{
+        flex-direction: column;
+        height: 140px;
+        overflow: hidden;
+    }
+    .login-btn2{
+        display: none;
+    }
 }
 .nav-title{
     display: flex;

@@ -5,7 +5,7 @@ function Hero() {
         <div>
             <div className="container">
                 <div className="hero-title">
-                    <h1 className='h1-color'>DevFire</h1>
+                    <h1 className='h1-color'>HackScript</h1>
                     <h1>Community</h1>
                     <h4>Learn. <span>Grow</span></h4>
                     <div className="join">

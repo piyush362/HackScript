@@ -8,7 +8,7 @@ function HomePage() {
         <div>
             <Navbar />
             <Hero />
-            <DevInfo />
+            {/* <DevInfo /> */}
         </div>
     )
 }
